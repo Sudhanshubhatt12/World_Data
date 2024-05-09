@@ -1,0 +1,52 @@
+
+
+.HomeContainer {
+    padding: 20px;
+    background-color: #fbfbfb;
+
+    
+  }
+  .Home-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .Home-search{
+    width: 30%;
+  }
+  .Home-filter{
+    width: 10%;
+  }
+  /* Search Input */
+  input[type="text"] {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Dropdown */
+  select {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  select:focus {
+    outline: none;
+  }
+
+
+   @media (max-width: 768px) {
+    .Home-menu {
+      flex-direction: column;
+    }
+  }
+  
