@@ -1,47 +1,68 @@
-/* Header.css */
+
 
 .header {
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000;
+   z-index: 999;
+  }
+  body[data-theme="dark"] .header{
+ 
+    background-color: #22313f !important;
+    
   }
   
   .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+   max-width: 1420px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 12px;
   }
   
   .header-title {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 800;
-    color: #333;
+   
   }
   
   .dark-mode-toggle {
     display: flex;
     align-items: center;
-    background: none;
+    background: transparent;
     border: none;
     cursor: pointer;
-    color: #333;
+  
     font-size: 16px;
+   
+  }
+   
+  .dark-mode-toggle svg {
+    margin-right: 8px;
+    
+    
   }
   
-  .dark-mode-toggle i {
-    margin-right: 5px;
+  
+  .dark-mode-toggle span {
+    font-weight: 800;
   }
+  
   
   @media (max-width: 768px) {
     .header-title {
       font-size: 20px;
     }
+    .dark-mode-toggle span{
+      visibility: hidden;
+    }
   }
+  
+
+  
+
   

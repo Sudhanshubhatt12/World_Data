@@ -2,4 +2,95 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  font-family: 'Nunito Sans', sans-serif !important;
 }
+/* Light mode styles */
+body[data-theme="light"] {
+  
+  background-color: #fff; /* Light background color */
+  color: #000000; /* Dark text color */
+  
+}
+
+/* Dark mode styles */
+body[data-theme="dark"] {
+ 
+  background-color: #22313f !important;/* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+/* Input styles */
+body[data-theme="light"] input {
+  background-color: #fff;
+  color: #000000;
+  background: transparent;
+ 
+}
+
+body[data-theme="dark"] input {
+  background-color: #22313f;
+  color: #fff;
+  background: transparent;
+  
+}
+
+/* Select styles */
+body[data-theme="light"] select {
+  background-color: #fff;
+  color: #000000;
+  background: transparent;
+  
+}
+
+body[data-theme="dark"] select {
+  background-color:#22313f;
+  color: #fff;
+  background: transparent;
+ 
+}
+body[data-theme="light"] select option {
+  background-color: #fff;
+  color: #000000;
+}
+body[data-theme="dark"] select option {
+  background-color: #22313f;
+  color: #fff;
+}
+
+/* Span styles */
+body[data-theme="light"] span {
+  color: #000000;
+}
+
+body[data-theme="dark"] span {
+  color: #fff;
+}
+
+/* Button styles */
+body[data-theme="light"] button {
+  color: #000000;
+  border: none;
+  background-color: #fff;
+}
+
+
+body[data-theme="dark"] button {
+  color: #fff;
+  border: none;
+  background-color: #22313f;
+}
+
+/* SVG styles */
+body[data-theme="light"] svg {
+  fill: #000000;
+}
+
+body[data-theme="dark"] svg {
+  fill: #fff;
+}
+
+
+
+
