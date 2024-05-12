@@ -4,12 +4,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 93vh; 
+  height: 100vh; 
 }
 
 .countrydetail-card {
   width: 90%;
-  overflow: hidden;
+  overflow: scroll;
   display: flex;
   align-items: center;
   height: 70%;
@@ -96,6 +96,7 @@
   }
   .country-details-section {
     margin-left: 0;
+    flex-direction: column;
   }
   .back-button {
     top: 5rem;
